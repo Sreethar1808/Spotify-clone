@@ -1,0 +1,141 @@
+body{
+    background-color: #171717;
+    padding: 0px;
+    margin:0px;
+}
+
+.header{
+    position: fixed;
+    border: 1px solid black;
+    width:280px;
+    height: 80px;;
+    z-index: 100;
+    background-color: black;
+    top:0px;
+    padding: 10px;
+}
+
+.menu{
+    position: fixed;
+    width: 301.90126953125px;
+    height: 78vh;
+    top: 70px;
+    border: 2px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    line-height: 2.5;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+       
+}
+
+.section-1{
+    position:absolute;
+    top:35px;
+    left:20px;  
+}
+
+.section-2{
+    position: absolute;
+    top:180px;
+    left:20px;
+}
+
+.img2{
+    width:20px;
+    margin-right:18px;
+    margin-left: 14px;
+}
+
+.set:hover{
+    background-color:#282828;
+    margin: 5px;
+    width:280px;
+    cursor: pointer;
+}
+
+.footer{
+    position: fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+    height:90px;
+    bottom:0px;
+    width:100%;
+    z-index: 100;
+}
+.Pimg{
+    position: absolute;
+    left:0;
+    top:0;
+    bottom: 0;
+    height: 90px;
+}
+.cont{
+    position: absolute;
+    left:70px;
+    align-items: center;
+    margin: 10px;;
+    color: white;
+    line-height: 1px;
+}
+.bt{
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.fimg3{
+    margin: 10px;
+    margin-bottom: 30px;
+   
+}
+.time-start{
+    position: absolute;
+    color: white;
+    left:480px;
+    top:65px;
+    font-size: 12px;
+}
+.time-end{
+    position: absolute;
+    color: white;
+    left:1020px;
+    top:65px;
+    font-size: 12px;
+}
+.inside{
+    position: absolute;
+    width: 400px;
+    height: 5px;
+    border-radius: 2px;
+}
+.icon1{
+    margin:5px;
+    cursor: pointer;
+}
+.bar{
+    position: absolute;
+     border: 1px solid grey;
+     width:500px;
+     height: 5px;
+     background-color: #282828;
+     border-radius: 2px;
+     top:70px;
+     cursor: pointer;
+ 
+ }
+ .icon{
+    align-items: center;
+    position: absolute;
+    right:30px;
+}
+.br{
+    color:#777
+}
