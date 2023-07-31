@@ -21,7 +21,7 @@ body{
 }
 .menu{
     position: relative;
-    width: 300.80126953125px;
+    width: 301.90126953125px;
     height: 800px;
     top: 1px;
     border: 2px;
@@ -30,12 +30,13 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     color: white;
-    line-height: 3;
+    line-height: 2.5;
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: auto;
 }
 .section-1{
     position:absolute;
-    top:40px;
+    top:35px;
     left:20px;
     
 }
@@ -53,24 +54,89 @@ body{
 }
 .section-2{
     position: absolute;
-    top:210px;
+    top:180px;
     left:20px;
 }
 .section-3{
     position:absolute;
-    top:380px;
-    left:30px;
+    top:330px;
+    left:35px;
 }
 .section4{
     position: absolute;
-   top:700px;
+   top:630px;
 }
 .footer{
-    position: sticky;
-    border: 1px solid black;
-    background-color: #171717;
-    height:80px;
+    position: fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height:90px;
     bottom:0px;
     width:100%;
     z-index: 100;
+}
+.Pimg{
+    position: absolute;
+    left:0;
+    top:0;
+    bottom: 0;
+}
+.fimg3{
+    margin: 10px;
+    margin-bottom: 30px;
+   
+}
+.bt{
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.cont{
+    position: absolute;
+    left:70px;
+    align-items: center;
+    margin: 10px;;
+    color: white;
+}
+
+.outside{
+    width: 60px;
+}
+
+.bar{
+   position: absolute;
+    border: 1px solid grey;
+    width:500px;
+    height: 5px;
+    background-color: #282828;
+    border-radius: 2px;
+    top:70px;
+    cursor: pointer;
+
+}
+.inside{
+    position: absolute;
+    width: 400px;
+    height: 5px;
+    border-radius: 2px;
+}
+    
+.time-start{
+    position: absolute;
+    color: white;
+    left:480px;
+    top:65px;
+    font-size: 12px;
+}
+
+.time-end{
+    position: absolute;
+    color: white;
+    left:1020px;
+    top:65px;
+    font-size: 12px;
 }
