@@ -294,6 +294,28 @@ a{
 .light{
     color:#666
 }
-@media screen {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-container-2{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (max-width: 767px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid-container-2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
     
 }
+
+
