@@ -245,7 +245,7 @@ a{
     left:350px;
     bottom: 100px;
     padding: 0px;
-    top:380px;
+    top:400px;
     color:white;
     font-family: Arial, Helvetica, sans-serif;
     flex-wrap: wrap;
@@ -295,6 +295,9 @@ a{
     color:#666
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+    body{
+        height:100%
+    }
     .grid-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -307,6 +310,9 @@ a{
    
 }
 @media screen and (max-width: 767px) {
+    body{
+        height: 100%;
+    }
     .grid-container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -320,6 +326,10 @@ a{
     .head-1{
         position: absolute;
         top:20px;
+    }
+    .playlist-2{
+        position: absolute;
+        top:600px;
     }
     
 }
