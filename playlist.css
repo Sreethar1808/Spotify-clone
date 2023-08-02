@@ -199,8 +199,8 @@ a{
     display: flex;
     justify-content: space-between;
     font-size: 15px;
-    margin-left:70px ;
-    margin-right: 30px;
+    margin-left:0px ;
+    margin-right: 0px;
 }
 .album{
     position: absolute;
@@ -208,23 +208,56 @@ a{
     left:10px;
     width:40px
 }
-.sree{
+.ply{
+    width: 18px;
     padding: 10px;
+}
+.two{
+    position: absolute;
+    padding: 10px;
+    top:7px;
+}
+.thun{
+    position: absolute;
+    height:40px;
+    padding: 5px;
+    width:40px;
+    left:30px;
+}
+.sree{
+    position: absolute;
+    padding: 10px;
+    left:80px;
+
 }
 .auth{
     color:#777;
 }
 .sname{
-    padding: 10px;;
+    position: absolute;
+    padding: 10px;
+    left:360px;
 }
 .date{
+    position: absolute;
     padding: 10px;
+    right:280px;
+}
+.sm{
+    position: absolute;
+    right:80px;
+    padding: 8px;
 }
 .time{
     padding: 10px;
+    position:absolute;
+    right:34px;
 }
 .grid-item:hover{
-    background-color: #252627;
+    background-color: #111417;
+}
+.three{
+    padding:8px;
 }
 
 .footer{
@@ -308,4 +341,14 @@ a{
 }
 .br{
     color:#777;
+}
+.ht{
+    position: absolute;
+    left:180px;
+    top:30px;
+}
+.lp{
+    position: absolute;
+    left:220px;
+    top:30px;
 }

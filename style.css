@@ -3,6 +3,7 @@ body{
     background-color: #171717;
     margin: 0px;
     padding: 0px;
+    flex-wrap: wrap;
 }
 .header{
     position: fixed;
@@ -292,4 +293,7 @@ a{
 }
 .light{
     color:#666
+}
+@media screen {
+    
 }
